@@ -127,13 +127,22 @@ export default function Navbar() {
                 </button>
               </div>
             ) : (
-              <Link
-                href="/login"
-                className="flex items-center gap-2 px-4 py-2 text-sm font-semibold text-white bg-gradient-to-r from-blue-600 to-sky-600 hover:from-blue-700 hover:to-sky-700 rounded-lg shadow-sm shadow-blue-500/20 transition-all hover:shadow-md"
-              >
-                <LogIn className="w-4 h-4" />
-                <span>เข้าสู่ระบบ / ลงทะเบียน</span>
-              </Link>
+              <div className="flex items-center gap-2">
+                <Link
+                  href="/welcome"
+                  className="flex items-center gap-2 px-3.5 py-1.5 text-xs font-semibold text-white bg-blue-600 hover:bg-blue-700 rounded-lg shadow-sm shadow-blue-500/20 transition-all"
+                >
+                  <Building className="w-3.5 h-3.5" />
+                  <span>ลงทะเบียนเข้าชม</span>
+                </Link>
+                <Link
+                  href="/owner-login"
+                  className="flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold text-amber-800 bg-amber-50 hover:bg-amber-100 border border-amber-200 rounded-lg transition-colors"
+                >
+                  <ShieldCheck className="w-3.5 h-3.5 text-amber-600" />
+                  <span>เจ้าของ (ฮอลล์)</span>
+                </Link>
+              </div>
             )}
           </div>
 
@@ -216,14 +225,24 @@ export default function Navbar() {
                 </button>
               </div>
             ) : (
-              <Link
-                href="/login"
-                onClick={() => setMobileMenuOpen(false)}
-                className="w-full flex items-center justify-center gap-2 px-4 py-2.5 text-sm font-semibold text-white bg-blue-600 rounded-lg"
-              >
-                <LogIn className="w-4 h-4" />
-                <span>เข้าสู่ระบบ / ลงทะเบียนเข้าชม</span>
-              </Link>
+              <div className="space-y-2">
+                <Link
+                  href="/welcome"
+                  onClick={() => setMobileMenuOpen(false)}
+                  className="w-full flex items-center justify-center gap-2 px-4 py-2.5 text-sm font-semibold text-white bg-blue-600 rounded-lg shadow-xs"
+                >
+                  <Building className="w-4 h-4" />
+                  <span>ลงทะเบียนเข้าชม (ผู้เยี่ยมชม)</span>
+                </Link>
+                <Link
+                  href="/owner-login"
+                  onClick={() => setMobileMenuOpen(false)}
+                  className="w-full flex items-center justify-center gap-2 px-4 py-2 text-sm font-semibold text-amber-900 bg-amber-50 border border-amber-200 rounded-lg hover:bg-amber-100"
+                >
+                  <ShieldCheck className="w-4 h-4 text-amber-600" />
+                  <span>เข้าสู่ระบบสำหรับเจ้าของ (ฮอลล์)</span>
+                </Link>
+              </div>
             )}
           </div>
         </div>

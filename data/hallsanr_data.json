@@ -292,6 +292,47 @@
   ],
   "visitorLogs": [
     {
+      "visitorName": "d",
+      "companyName": "d",
+      "purpose": "d",
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.7977.167 Safari/537.36 Antigravity/2.34.0",
+      "id": "visit-1795492379405-tqurpp",
+      "visitedAt": "2026-11-24T03:52:59.405Z"
+    },
+    {
+      "visitorName": "v",
+      "companyName": "v",
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.7977.167 Safari/537.36 Antigravity/2.34.0",
+      "id": "visit-1795492350505-w1589h",
+      "visitedAt": "2026-11-24T03:52:30.505Z"
+    },
+    {
+      "visitorName": "v",
+      "companyName": "v",
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.7977.167 Safari/537.36 Antigravity/2.34.0",
+      "id": "visit-1795492345395-526h8r",
+      "visitedAt": "2026-11-24T03:52:25.395Z"
+    },
+    {
+      "visitorName": "v",
+      "companyName": "v",
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.7977.167 Safari/537.36 Antigravity/2.34.0",
+      "id": "visit-1795492342873-n3j8f4",
+      "visitedAt": "2026-11-24T03:52:22.873Z"
+    },
+    {
+      "visitorName": "คุณสมบัติ HR",
+      "companyName": "SCG Chemicals",
+      "ipAddress": "::1",
+      "userAgent": "Python-urllib/3.12",
+      "id": "visit-1795491683086-8j1ls6",
+      "visitedAt": "2026-11-24T03:41:23.086Z"
+    },
+    {
       "visitorName": "Teerapong HR",
       "companyName": "PTT Digital Solutions",
       "email": "teerapong@pttdigital.com",

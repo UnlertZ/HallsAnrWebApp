@@ -49,7 +49,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     try {
       await fetch('/api/auth/logout', { method: 'POST' });
       setSession(null);
-      window.location.href = '/login';
+      window.location.href = '/welcome';
     } catch (e) {
       console.error('Logout error:', e);
     }
